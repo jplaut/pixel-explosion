@@ -1,0 +1,28 @@
+html {
+  background-color: black;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  position: absolute;
+}
+
+div#controls {
+  background-color: #CCC;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 170px; 
+  height: 130px;
+  padding: 5px;
+}
+
+.section label {
+  margin-bottom: 3px;
+  margin: 0 auto 3px;
+}
+
+div.section {
+  float: left;
+  margin-right: 30px;
+}

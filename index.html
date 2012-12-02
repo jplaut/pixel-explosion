@@ -1,0 +1,36 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-type' />
+    <title>Pixel Explosion</title>
+    <link href='base.css' media='screen' rel='stylesheet' />
+  </head>
+  <body>
+    <canvas id='c'></canvas>
+    <div id='controls'>
+      <div class='section'>
+        <label for='quantity'>
+          Number of Particles:
+        </label>
+        <br />
+        <input max='70' min='5' name='quantity' onchange='handleInput(this)' type='range' value='20' />
+      </div>
+      <div class='section'>
+        <label for='size'>
+          Particle Size:
+        </label>
+        <br />
+        <input max='10' min='1' name='size' onchange='handleInput(this)' type='range' value='3' />
+      </div>
+      <div class='section'>
+        <label for='length'>
+          Trail Length:
+        </label>
+        <br />
+        <input max='2.2' min='1' name='length' onchange='handleInput(this)' step='0.1' type='range' value='1' />
+      </div>
+    </div>
+    <script src='pixelexplosion.js'></script>
+  </body>
+</html>
